@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #2e7d32, #1b5e20);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section.dark {
+  background: #e8f5e9;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* FACTS */
+.facts {
+  list-style: none;
+  padding: 0;
+}
+
+.facts li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1b5e20;
+  color: white;
+}
